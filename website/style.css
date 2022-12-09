@@ -32,7 +32,7 @@ body{
 }
 .row{
     display: flex;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     
     justify-content: space-around;
     flex-wrap: wrap;
@@ -104,10 +104,11 @@ max-width: 100%;
 }
 .title{
     text-align: center;
-    margin: 0 auto 54px;
+    margin: 0 auto 44px;
     position: relative;
     line-height: 61px;
     color: #555;
+    margin-top: 14px;
 }
 .title::after{
     content: '';
@@ -133,4 +134,33 @@ h4{
 }
 .col-3:hover{
     transform: translateY(-5px);
+}
+.offer{
+    background:radial-gradient(#fff,#ffd6d6);
+    margin-top:50px;
+}
+.offer .offer-img{
+    padding: 50px;
+}
+small{
+    color: #555;
+}
+.testimonial{
+    padding-top:50px;
+}
+.testimonial .col-2{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: transfrom 0.5s;
+
+}
+.testimonial .col-2 img{
+    width: 50px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.testimonial .col-2:hover{
+    transform: translateY(-10px);
 }
